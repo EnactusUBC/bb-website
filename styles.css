@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
 * {
     padding: 0;
     margin: 0;
@@ -60,4 +59,34 @@
     align-items: center;
     justify-content: center;
     padding-top: 120px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero {
+    background-image: url('assets/hero-bckg.jpg');
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.centered-image {
+    max-width: 50%; /* Adjust based on your preference */
+    margin: 90px;
+}
+
+.banner-text {
+    font-size: 4em; /* Large text size */
+    font-weight: 400;
 }
